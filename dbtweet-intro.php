@@ -51,6 +51,7 @@ If you still don't know where to start, take a look at some of the <a href='?sam
 <li>The data does not include account changes over time. The account name, banner image, description, follower count, etc. represent the content when the account was disabled by Twitter.</li>
 <li>For the last tweet, the data does not distinguish whether the account stopped on its own or was shutdown by Twitter. (Most likely, this denotes the last tweeet before the account was shutdown.)</li>
 </ul>
+This analysis of this data is open source under a WTFPL license. Get the source code at <a href='https://github.com/ArchiveLabs/twitter-foreign-influence'>https://github.com/ArchiveLabs/twitter-foreign-influence</a>.
 </div>
 <?php
   echo $Templates['@Footer'];
