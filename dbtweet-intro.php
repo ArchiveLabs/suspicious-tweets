@@ -19,7 +19,7 @@ function GetIntro()
   echo TemplateReplace($Templates['@Header'],'%TITLE%',"About");
 ?>
 <div class='tweet'>
-<H1>About</H1>
+<H1>About SuspiciousTweets</H1>
 Following the foreign influence campaigns that impacted the US 2016 Elections, social media sites began to crack down on fraudulent accounts. Many of these influence accounts impersonate people and organizations.
 <br><br>
 On 17-October-2018, Twitter <a href='https://blog.twitter.com/official/en_us/topics/company/2018/enabling-further-research-of-information-operations-on-twitter.html'>released</a> raw data related to two of these foreign influence campaigns: Russia's "Internet Research Agency" (IRA) and a separate campaign from Iran.  These campaigns are denoted in the data as "IRA" and "Iran".
@@ -51,7 +51,10 @@ If you still don't know where to start, take a look at some of the <a href='?sam
 <li>The data does not include account changes over time. The account name, banner image, description, follower count, etc. represent the content when the account was disabled by Twitter.</li>
 <li>For the last tweet, the data does not distinguish whether the account stopped on its own or was shutdown by Twitter. (Most likely, this denotes the last tweeet before the account was shutdown.)</li>
 </ul>
-This analysis of this data is open source under a WTFPL license. Get the source code at <a href='https://github.com/ArchiveLabs/twitter-foreign-influence'>https://github.com/ArchiveLabs/twitter-foreign-influence</a>.
+<H2>Credits</H2>
+The raw Twitter data came from Twitter.
+This tweet recreation and analysis web site was created by <a href='http://www.hackerfactor.com/'>Hacker Factor</a>, with assistance and hosting provided by the <a href='https://archive.org/'>Internet Archive</a> and <a href='https://archivelab.org/'>Archive Labs</a>. 
+This analysis of this data is open source under a WTFPL license. Get the source code at <a href='https://github.com/ArchiveLabs/twitter-foreign-influence'>https://github.com/ArchiveLabs/suspicious-tweets</a>.
 </div>
 <?php
   echo $Templates['@Footer'];

@@ -77,7 +77,7 @@ table.sortable th { cursor:pointer; }
 span.intro { display:inline-block; width:50%; vertical-align:middle; margin-left:1em; }
 button.intro { width:10em; }
 </style>
-<title>Tweet Recreation: %TITLE%</title>
+<title>SuspiciousTweets: %TITLE%</title>
 </head>
 <body>
 <b class='pointer' onclick='window.location=\"?\"'>&#x1f3e0; Reconstructed based on unformatted data provided by Twitter.</b><br><br>\n";
