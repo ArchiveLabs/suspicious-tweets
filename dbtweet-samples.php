@@ -20,7 +20,7 @@ function GetSamples()
 ?>
 <div class='tweet'>
 <H1>Samples</H1>
-It's easy enough to browse the data, but what sort of research findings are there?  Here's a few walk-thru examples.
+It's easy enough to browse the data, but what sort of research findings are there?  Here's a few walk-through examples.
 
 <H2>Example 1: Similar accounts</H2>
 People use tools, and their methods often have consistencies.
