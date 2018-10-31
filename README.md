@@ -18,7 +18,9 @@ How to install:
 2. Put all php and js and sh files in "../data/".
 
 3. Download all of the Twitter dump zip files.
+
    https://about.twitter.com/en_us/values/elections-integrity.html#data
+
    NOTE: It's about 365G and includes both IRA and Iran content.
 
 4. Temporarily:  Put all of the zip files in ../data/
@@ -27,22 +29,32 @@ How to install:
    DO NOT RENAME THE FILES!
 
 5. Convert the CSV and zip file contents into an SQLite3 database.
+
      cd data
+
      ./PrepSQLDB.sh
+
    NOTE: This is SLOW.  It might take 2-3 hours.
    When it finishes, you will have:
+
 	tweets.sqlite  (4.9G)
+
 	media.sqlite   (411M)
+
    There are also a bunch of temp files that you no longer need:
 	*.zip
 	*.csv
 
 6. SQLite3 is not fast enough for some searches, even with indexes turned on.
    Cache the slowest searches for speed:
+
      cd data
+
      php cli.php cache
+
    This will take a few hours to complete.
    After the first minute, you should have data/cache/cache-dates-all.gz
+
    When it exists, you're ready to use the site (even while other cache
    files are being generated).
 
@@ -50,6 +62,7 @@ How to install:
 
 8. That's it!  Your web browser should hit your web server and it will
    access index.php.
+
    NOTE: If you don't know how to configure the web server to use the
    index.php file, well, that's outside the scope of this little script.
    I'm sure your web server software has a tutorial somewhere.
