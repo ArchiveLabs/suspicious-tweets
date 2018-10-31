@@ -39,6 +39,7 @@ table { display:block; border:1px solid #444; }
 thead { display:block; width:100%; }
 tbody { display:block; width:100%; height:20em; overflow-y:scroll; overflow-x:hidden; }
 table.sortable th { cursor:pointer; }
+table.sortable tbody>tr:hover { background-color:#ccc; }
 .banner { width:100%; text-align:center; background-color: #ccf; padding:0; margin:0; }
 .banner img { max-height:300px; padding:0; margin:0; }
 .pointer { cursor:pointer; }
