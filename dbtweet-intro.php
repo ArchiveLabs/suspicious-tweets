@@ -54,7 +54,7 @@ If you still don't know where to start, take a look at some of the <a href='?sam
 <H2>Credits</H2>
 The raw Twitter data came from Twitter.
 This tweet recreation and analysis web site was created by <a href='http://www.hackerfactor.com/'>Hacker Factor</a>, with assistance and hosting provided by the <a href='https://archive.org/'>Internet Archive</a> and <a href='https://archivelab.org/'>Archive Labs</a>. 
-This analysis of this data is open source under a WTFPL license. Get the source code at <a href='https://github.com/ArchiveLabs/twitter-foreign-influence'>https://github.com/ArchiveLabs/suspicious-tweets</a>.
+The analysis of this data is open source under a WTFPL license. Get the source code at <a href='https://github.com/ArchiveLabs/twitter-foreign-influence'>https://github.com/ArchiveLabs/suspicious-tweets</a>.
 The raw data is available from  <a href='https://about.twitter.com/en_us/values/elections-integrity.html#data'>Twitter</a> or from the Internet Archive's mirror: <a href='https://archive.org/details/twittersdataarchive'>https://archive.org/details/twittersdataarchive</a>.
 </div>
 <?php
