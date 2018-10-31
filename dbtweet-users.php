@@ -69,7 +69,7 @@ function GetUsers($UserType=false)
   $HTML.="<th style='width:20em;text-align:left'>Account</th>";
   $HTML.="<th style='width:6em;text-align:left'>Created</th>";
   $HTML.="<th style='width:7em;text-align:left'>First Tweet</th>";
-  $HTML.="<th style='width:6em' title='in years, months, days'>Elapsed</th>";
+  $HTML.="<th style='width:8em' title='in years, months, days'>Elapsed</th>";
   $HTML.="<th style='width:6em;text-align:right'>Followers</th>";
   $HTML.="</tr>\n";
   $HTML.="</thead>\n";
@@ -109,8 +109,8 @@ function GetUsers($UserType=false)
       $row['user_display_name']='[redacted]';
       }
     $v.="<a href='?userid=" . $row['userid'];
-    $v.="' title='" . Taint($row['user_profile_description']);
-    $v.="'>" . Taint($row['user_display_name']) . "</a>";
+    $v.="' title=\"" . Taint($row['user_profile_description']);
+    $v.="\">" . Taint($row['user_display_name']) . "</a>";
     if ($row['user_screen_name']) { $v.=" (@" . $row['user_screen_name'] . ")"; }
     $v.="</td>";
     $v.="<td style='width:6em'>" . $row['account_creation_date'] . "</td>";
@@ -129,7 +129,7 @@ function GetUsers($UserType=false)
     if ($elapse->m >= 1) { $e.=$elapse->m . "m "; $et.=Plural($elapse->m,"month")." "; }
     if ($elapse->d >= 0) { $e.=$elapse->d . "d"; $et.=Plural($elapse->d,"day"); }
     if ($elapse->days==0) { $e='0 days'; }
-    $v.="<td style='width:6em;text-align:right'";
+    $v.="<td style='width:8em;text-align:right'";
     $v.=" title='$et'";
     $v.=" sorttable_customkey='" . $elapse->days . "'";
     $v.=">$e</td>";
