@@ -31,7 +31,7 @@ Here are some sample searches that you can use as a starting point:
 <br><br>
 <button class='intro' onclick='window.location="?userid=all"'>All accounts</button><span class='intro'>Most account names are redacted. This shows the account name, date the account was created, date of the account's first tweet, and the elapsed time between creation and first tweet.</span>
 <br><br>
-<button class='intro' onclick='window.location="?userid=pop"'>Popular</button><span class='intro'>Accounts with at least 5,000 followers are not redacted. This shows the most popular accounts.</span>
+<button class='intro' onclick='window.location="?userid=pop"'>Popular</button><span class='intro'>Accounts with at least 5,000 followers are popular enough to not be redacted. This shows the most popular accounts.</span>
 <br><br>
 <button class='intro' onclick='window.location="?userid=news"'>News</button><span class='intro'>Some IRA and Iran accounts claimed to be news outlets to give their biases more credibility.</span>
 <br><br>
