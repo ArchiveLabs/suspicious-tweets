@@ -24,7 +24,7 @@ Following the foreign influence campaigns that impacted the US 2016 Elections, s
 <br><br>
 On 17-October-2018, Twitter <a href='https://blog.twitter.com/official/en_us/topics/company/2018/enabling-further-research-of-information-operations-on-twitter.html'>released</a> raw data related to two of these foreign influence campaigns: Russia's "Internet Research Agency" (IRA) and a separate campaign from Iran.  These campaigns are denoted in the data as "IRA" and "Iran".
 <br><br>
-The <a href='https://about.twitter.com/en_us/values/elections-integrity.html#data'>raw data</a> released by Twitter is publicly available. However, it does not "look" like tweets. Instead, it is a collection of comma separated values (CSV) files and raw media (pictures, videos, etc.).  This web site reconstructs the tweets based on the raw data, allowing researchers and curious observers to dig through the data.
+The <a href='https://about.twitter.com/en_us/values/elections-integrity.html#data'>raw data</a> released by Twitter is publicly available and intended for researchers. However, the raw data does not "look" like tweets. Instead, it is a collection of comma separated values (CSV) files and raw media (pictures, videos, etc.).  This web site reconstructs the tweets based on the raw data, allowing researchers and curious observers to dig through the data.
 
 <H2>Start!</H2>
 Here are some sample searches that you can use as a starting point:
