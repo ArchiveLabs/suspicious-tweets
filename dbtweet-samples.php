@@ -60,7 +60,7 @@ This is NOT a bug in this recreation engine or in how Twitter stored tweet info.
 <br><br>
 How do we know it's a bot bug and not Twitter?  There's some tweets that just contain "&amp;" to mean 'and'.  If it were Twitter's bug, they would all say "&amp;amp;".
 <br><br>
-There are also some instances of '&amp;amp;quot;', which is a double HTML-encoding bug. (It should be an ampersand followed by a double quote: &amp;".)
+There are also some instances of '&amp;amp;quot;', which is a double HTML-encoding bug. (One decoding would become &amp;quot; and the second decoding would be a double-quote " character.)
 
 <H2>Example 3: Irregular content</H2>
 There's a few user accounts that have irregular content. Such as <a target='account' href='?userid=7271c99b1d0d235f051113b76d4e6c765ebccb5c743f09f89376c1576690ee54&offset=300'>account</a>.
